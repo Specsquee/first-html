@@ -2,15 +2,27 @@
 header {
 
     background-color:lightpink;
+    color:crimson;
+
 }
 
 main {
 
     background-color: hotpink;
+    color:antiquewhite;
 }
 
-header {
+footer {
 
-margin-bottom: 10px;
+    background-color:fuchsia;
 
 }
+
+#gross img {
+
+margin-top: 10px;
+border-block-style: 1px;
+
+}
+
+
