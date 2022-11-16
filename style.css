@@ -1,8 +1,16 @@
 
-body {
+header {
+
+    background-color:lightpink;
+}
+
+main {
+
     background-color: hotpink;
 }
 
 header {
-margin-bottom: 10;
+
+margin-bottom: 10px;
+
 }
