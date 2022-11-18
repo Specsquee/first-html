@@ -1,9 +1,9 @@
 function funAnswer(){
 alert("Welcome to my gum emporium");
-let funAnswer = prompt("Are you here to grade my Javascript? YES or NO or OTHER please");
+let funAnswer = prompt("Are you here to grade my Javascript? YES or NO please!");
 
 while(funAnswer == ""){
-    funAnswer = prompt("Are you here to grade my Javascript? YES or NO");
+    funAnswer = prompt("Are you here to grade my Javascript? YES or NO I WILL NOT ASK AGAIN! (I will)");
 }
 if(funAnswer == "YES"){
     alert("I would like the max grade please kind kind TA or Teacher.");
@@ -20,30 +20,26 @@ return funAnswer;
 function swallowGum(){
 
     let gum = prompt ("How many pieces of gum do you swallow between 1 and 3?")
-    for (let i = 0; i < 4; i++);{
-        document.write("<img src")
+    for (let i = 0; i < gum; i++){
+        console.log(gum);
+        document.write("<img src='gumwall.jpg' alt='gross wall' />");
     }
 }
 
 
-
-
-
-
-
-
 function treasureHunt(){
-     let treasureHunt = Prompt("Thanks for Before you explore the website would you like to find treasure? YES or NO please!");
 
-if(treasureHunt == "YES"){
-    alert("Well go on and find it!")
-    document.write("You have found my hidden gum treasure. Thank you for coming to the bottom of my website!")
+    let tHunt = prompt("Thanks for Before you explore the website would you like to find treasure? YES or NO please!");
+
+    if(tHunt == "YES"){
+        alert("Well go on and find it!");
+        document.write("You have found my hidden gum treasure. Thank you for coming to the bottom of my website!");
 }     
-else if(treasureHunt == "NO"){
-    alert("Wow you are no fun!")
+    else if(tHunt == "NO"){
+        alert("Wow you are no fun!");
 }
-else{
-    alert("You must be a real hoot at a party.")
+    else{
+        alert("You must be a real hoot at a party.");
 }
 
 }
