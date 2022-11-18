@@ -21,8 +21,10 @@ function swallowGum(){
 
     let gum = prompt ("How many pieces of gum do you swallow between 1 and 3?")
     for (let i = 0; i < gum; i++){
-        console.log(gum);
         document.write("<img src='gumwall.jpg' alt='gross wall' />");
+        if(i == 2){
+            break;
+        }
     }
 }
 
